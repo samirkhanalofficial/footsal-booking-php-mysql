@@ -1,0 +1,68 @@
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+thead {
+  background-color: black;
+  color: white;
+}
+td {
+  padding: 8px;
+}
+.text-warning {
+  color: red;
+  text-decoration: none;
+}
+a.text-warning:hover,
+a.text-warning:active,
+a.text-warning:focus {
+  color: black;
+  text-decoration: none;
+}
+.text-primary {
+  color: rgba(11, 162, 250, 0.973);
+  text-decoration: none;
+}
+a.text-primary:hover,
+a.text-primary:active,
+a.text-primary:focus {
+  color: black;
+  text-decoration: none;
+}
+.back {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.back:hover {
+  color: red;
+}
+
+.container {
+  padding: 10px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.addButton {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.addButton:hover {
+  background-color: green;
+  color: white;
+}
+
+.addButton:active {
+  background-color: red;
+  color: white;
+}
